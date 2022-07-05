@@ -1,0 +1,101 @@
+* {
+  font-size: 18px;
+}
+/*flex常用样式表类名归类*/
+/*针对align-items: center基础下的flex样式归类*/
+
+.flexbox {
+  display: flex;
+}
+
+/*容器类名*/
+.flex_r {
+  display: flex;
+  align-items: center;
+  flex-direction: row; /*主轴水平，起点在左边*/ /*flex默认*/
+}
+.flex_r_r {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse; /*主轴水平，起点在右*/
+}
+.flex_c {
+  display: flex;
+  align-items: center;
+  flex-direction: column; /*主轴垂直，起点在上*/
+}
+.flex_c_r {
+  display: flex;
+  align-items: center;
+  flex-direction: column-reverse; /*主轴垂直，起点在下*/
+}
+.flex_w {
+  flex-wrap: wrap; /*超过换行*/
+}
+.flex_r_start {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /*主轴左对齐*/ /*默认*/
+}
+
+/*主轴水平*/
+.flex_r_end {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; /*主轴右对齐*/
+}
+.flex_r_center {
+  display: flex;
+  align-items: center;
+  justify-content: center; /*主轴居中对齐*/
+}
+.flex_r_between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /*主轴两端对齐，项目之间的间隔都相等，*/ /*两边无间隙*/
+}
+.flex_r_around {
+  display: flex;
+  align-items: center;
+  justify-content: space-around; /*主轴两端对齐，每个项目两侧的间隔相等。所以，项目之间的间隔比项目与边框的间隔大一倍*/ /*两边有间隙*/
+}
+
+/*主轴垂直*/
+.flex_c_start {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.flex_c_end {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.flex_c_center {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.flex_c_between {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.flex_c_around {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/*项目样式*/
+.flex1 {
+  flex: 1; /*默认占据父级除定宽的元素之外的位置*/
+}
+.flex_shrink0 {
+  flex-shrink: 0; /*空间不足时也不压缩的项目*/
+}

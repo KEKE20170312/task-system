@@ -1,0 +1,100 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body,
+dl,
+dt,
+dd,
+pre,
+code,
+fieldset,
+legend,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: rgb(18, 18, 18);
+  font-size: 14px;
+  font-family: "PingFang SC", -apple-system, "Helvetica Neue", Arial,
+    "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Microsoft JhengHei",
+    "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN",
+    "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC",
+    "WenQuanYi Micro Hei", SimSun, sans-serif;
+}
+td,
+th,
+caption {
+  font-size: 14px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  font-size: 100%;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+img {
+  border: none;
+  vertical-align: middle;
+}
+ol,
+ul,
+li {
+  list-style: none;
+}
+table {
+  border-collapse: collapse;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+/* 火狐 */
+input {
+  -moz-appearance: textfield;
+}
+
+::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+}
+::-webkit-scrollbar-thumb {
+  width: 6px;
+  border-radius: 6px;
+  background: #9d9d9d;
+  box-shadow: -2px 0 0 #fff inset, 1px 0 0 #fff inset,
+    0 -1px 0 rgba(255, 255, 255, 0.9) inset,
+    0 1px 0 rgba(255, 255, 255, 0.9) inset;
+}
+::-webkit-scrollbar-track {
+  border-radius: 0;
+  background: #fff;
+}
