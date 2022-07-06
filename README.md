@@ -1,8 +1,16 @@
+<!--
+ * @Description: 
+ * @Author: keke
+ * @Date: 2022-07-05 21:01:21
+ * @LastEditors: keke
+ * @LastEditTime: 2022-07-06 19:33:05
+ * @FilePath: \task-system\README.md
+-->
 # task-system
 
 ## 项目启动准备
 
-### 1. 后端准备：安装 node，express，mongodb，cors，mongoose, nodemon
+### 1. 后端准备：安装 node，express，mongodb，cors，mongoose
 
 ### 2. 前端准备: 安装@vue/cli node
 
